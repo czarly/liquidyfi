@@ -9,7 +9,7 @@ services:
         ports:
             - "5432:5432"
         volumes:
-            - ./db-data:/var/lib/postgresql/data
+            - ./data/postgres:/var/lib/postgresql/data
         networks:
             - pg-net
     redis:
@@ -21,7 +21,7 @@ services:
         ports:
             - 6379:6379
         volumes:
-            - ./redis-data:/data
+            - ./data/redis:/data
 networks: 
     pg-net:
     redis-net:
