@@ -1,0 +1,33 @@
+{
+  "name": "liquidyfi",
+  "version": "1.0.0",
+  "description": "Defi Liquidation & Analyze Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Defi",
+    "Liquidation",
+    "Compount",
+    "Aave",
+    "Protocol",
+    "Ethereum",
+    "Stable",
+    "Coin"
+  ],
+  "author": "Archil Panchulidze",
+  "license": "ISC",
+  "dependencies": {
+    "@studydefi/money-legos": "^2.3.2",
+    "bignumber.js": "^9.0.0",
+    "bull": "^3.13.0",
+    "dotenv-flow": "^3.1.0",
+    "graphql-request": "^2.0.0",
+    "graphql.js": "^0.6.6",
+    "lodash": "^4.17.15",
+    "objects-to-csv": "^1.3.6",
+    "pg": "^7.18.2",
+    "web3": "^1.2.6"
+  }
+}
